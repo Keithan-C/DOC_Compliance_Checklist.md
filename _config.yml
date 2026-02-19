@@ -1,13 +1,40 @@
+# Site settings
 title: EU AI Act — Compliance Documentation Hub
 description: Engineering interpretation of Articles 12 & 19 for automotive compliance
+baseurl: ""          # leave empty for root domain
+url: "https://keithan-c.github.io"  # your GitHub Pages domain
+
+# Theme
 theme: jekyll-theme-slate
+remote_theme: pmarsceill/just-the-docs
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-remote_theme: pmarsceill/just-the-docs
-
+# Just the Docs specific settings
 just_the_docs:
-  logo: /assets/images/logo.svg
+  logo: /assets/images/logo.svg       # optional logo path
   repository: https://github.com/keithan-c/DOC_Compliance_Checklist.md
   favicon: /assets/images/favicon.ico
+
+# Navigation order (example)
+nav_order:
+  - index.md
+  - article-12.md
+  - article-19.md
+  - checklist.md
+  - audit-readiness.md
+
+# Exclude files/folders from build
+exclude:
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
