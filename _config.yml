@@ -1,39 +1,13 @@
-# Site settings
-title: "EU AI Act — Compliance Documentation Hub"
-description: "Engineering interpretation of Articles 12 & 19 for automotive compliance"
+title: EU AI Act — Compliance Documentation Hub
+description: Engineering interpretation of Articles 12 & 19 for automotive compliance
 theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Use remote Just-the-Docs theme
 remote_theme: pmarsceill/just-the-docs
 
-# Just-the-Docs specific settings
 just_the_docs:
-  logo: /assets/images/logo.svg      # Make sure you have this file in your repo
-  repository: https://github.com/Keithan-C/DOC_Compliance_Checklist.md  # Update with your actual repo
-  favicon: /assets/images/favicon.ico # Add your favicon here
-  # Optional: enable search, navigation depth, etc.
-  search_enabled: true
-  nav_order:
-    - Home
-    - Article 12
-    - Article 19
-    - Checklist
-    ```mermaid
-flowchart TD
-    Legal --> Engineering
-    Engineering --> Training
-    Training --> Audit
-
-4. **Push to GitHub Pages**:  
-   - Make sure your repo is public or set for Pages.  
-   - Pages will automatically use `_config.yml` and render your multi-page doc site.
-
----
-
-If you want, I can **convert all your previous HTML pages into a clean Jekyll + Just-the-Docs structure with Markdown, Mermaid diagrams, and UX improvements**, so you can just drop the files in GitHub and have a professional, engineer-friendly site.  
-
-Do you want me to do that next?
-
+  logo: /assets/images/logo.svg
+  repository: https://github.com/keithan-c/DOC_Compliance_Checklist.md
+  favicon: /assets/images/favicon.ico
