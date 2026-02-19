@@ -2,164 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LXD Advisory | Automotive AI Compliance</title>
-    <style>
-        /* Reset & Base */
-        body, h1, h2, h3, p, ul, li, a {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-        body {
-            background-color: #0f111a;
-            color: #e0e0e0;
-            line-height: 1.6;
-        }
-        a {
-            color: #00d9ff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-
-        /* Container */
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px 0;
-        }
-
-        /* Hero Section */
-        .hero {
-            text-align: center;
-            padding: 80px 20px;
-            background: linear-gradient(135deg, #0f111a 0%, #1a1c2c 100%);
-        }
-        .hero h1 {
-            font-size: 3rem;
-            color: #00d9ff;
-            margin-bottom: 1rem;
-        }
-        .hero p {
-            font-size: 1.3rem;
-            color: #a8b3cc;
-            margin-bottom: 2rem;
-        }
-        .hero .cta-btn {
-            background-color: #00d9ff;
-            color: #fff;
-            padding: 14px 28px;
-            border-radius: 6px;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-        .hero .cta-btn:hover {
-            background-color: #fff;
-            color: #0066ff;
-        }
-
-        /* Sections */
-        section {
-            padding: 60px 0;
-        }
-        h2 {
-            font-size: 2.2rem;
-            color: #00d9ff;
-            margin-bottom: 1rem;
-            text-align: center;
-        }
-        p {
-            max-width: 800px;
-            margin: 0 auto 1.5rem auto;
-            text-align: center;
-            font-size: 1.1rem;
-        }
-
-        /* Services */
-        .services {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 30px;
-            margin-top: 40px;
-        }
-        .service-card {
-            background-color: #1a1c2c;
-            padding: 20px;
-            border-radius: 10px;
-            width: 280px;
-            text-align: left;
-            transition: 0.3s;
-        }
-        .service-card:hover {
-            background-color: #22253b;
-        }
-        .service-card h3 {
-            color: #00d9ff;
-            margin-bottom: 10px;
-        }
-        .service-card p {
-            color: #a8b3cc;
-        }
-
-        /* Resources */
-        .resources {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 30px;
-        }
-        .resource-card {
-            background-color: #1a1c2c;
-            padding: 16px;
-            border-radius: 8px;
-            width: 260px;
-            text-align: center;
-            transition: 0.3s;
-        }
-        .resource-card:hover {
-            background-color: #22253b;
-        }
-        .resource-card a {
-            display: inline-block;
-            margin-top: 1rem;
-            padding: 8px 16px;
-            background-color: #00d9ff;
-            color: #fff;
-            border-radius: 6px;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-        .resource-card a:hover {
-            background-color: #fff;
-            color: #0066ff;
-        }
-
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 40px 20px;
-            background-color: #0f111a;
-            border-top: 1px solid #22253b;
-        }
-        footer a {
-            font-weight: bold;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .services, .resources {
-                flex-direction: column;
-                align-items: center;
-            }
-            .service-card, .resource-card {
-                width: 90%;
-            }
-        }
-    </style>
+    <title>LXD Advisory - AI Compliance Training</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body>
+<header>
+    <div class="logo">LXD Advisory</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="article-12.html">Article 12</a>
+        <a href="article-19.html">Article 19</a>
+        <a href="checklist.html">Checklist</a>
+        <a href="https://calendly.com/hello-keithan/calendly-com-keithan-audit-gap" target="_blank">Book Consultation</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>EU AI Act Article 12/19 Compliance Training</h1>
+    <p>21-Day Architecture Jam for Automotive R&D Teams — Deliver Audit-Ready Documentation Before August 2, 2026</p>
+    <a class="btn-primary" href="https://calendly.com/hello-keithan/calendly-com-keithan-audit-gap" target="_blank">Book Architecture Jam</a>
+</section>
+
+<section class="about">
+    <h2>About LXD Advisory</h2>
+    <p>We use Learning Experience Design (LXD) to help automotive engineering teams produce compliance deliverables during training sessions — not just passive theory. Build internal capability while creating audit-ready artifacts.</p>
+</section>
+
+<section class="resources">
+    <h2>Resources</h2>
+    <a href="https://github.com/Keithan-C/The-Executive-Guide-to-Automotive-AI-Compliance-2026-/blob/main/README.md" target="_blank">AI Compliance Guide</a>
+    <a href="https://keithan-c.github.io/ai-act-article-12-19-checklist/" target="_blank">Living Compliance Checklist</a>
+    <a href="https://www.linkedin.com/in/keithan-cokbilir-b929a830" target="_blank">Connect on LinkedIn</a>
+</section>
+
+<footer>
+    &copy; 2026 LXD Advisory by Keithan Cokbilir | All Rights Reserved
+</footer>
+</body>
+</html>
