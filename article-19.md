@@ -36,5 +36,38 @@ flowchart TD
     Purpose --> Architecture
     Architecture --> Risk
     Risk --> Data
+
+
+---
+
+# 6️⃣ `engineering-checklists.md`
+
+```markdown
+---
+layout: default
+title: Engineering Checklists
+---
+
+# Engineering Readiness Checklists
+
+## Article 12
+
+- [ ] Logging schema defined
+- [ ] Model version traceability
+- [ ] Data lineage mapping
+- [ ] Override logging implemented
+- [ ] Retention policy documented
+- [ ] Retrieval interface tested
+
+---
+
+## Article 19
+
+- [ ] Architecture diagram aligned with implementation
+- [ ] Risk mapping per component
+- [ ] Oversight documentation validated
+- [ ] Update governance defined
+- [ ] Post-market monitoring documented
+
     Risk --> Oversight
     Oversight --> Monitoring
