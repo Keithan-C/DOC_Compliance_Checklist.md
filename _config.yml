@@ -1,5 +1,13 @@
-title: EU AI Act – Engineering Compliance Hub
-description: Technical interpretation of Articles 12 & 19 for Automotive & ADAS Systems
-theme: minima
-markdown: kramdown
+title: EU AI Act — Compliance Documentation Hub
+description: Engineering interpretation of Articles 12 & 19 for automotive compliance
+theme: jekyll-theme-slate
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
+remote_theme: pmarsceill/just-the-docs
+
+just_the_docs:
+  logo: /assets/images/logo.svg
+  repository: https://github.com/keithan-c/your-repo-name
+  favicon: /assets/images/favicon.ico
